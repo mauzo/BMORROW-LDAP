@@ -1,0 +1,10 @@
+Build.PL
+Changes
+lib/BMORROW/LDAP.pm
+lib/BMORROW/LDAP/Entry.pm
+lib/BMORROW/LDAP/NSS.pm
+lib/BMORROW/LDAP/Util.pm
+MANIFEST			This list of files
+META.json
+META.yml
+t/00use.t

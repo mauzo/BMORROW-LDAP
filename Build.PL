@@ -9,6 +9,10 @@ Module::Build->new(
     build_requires	=> {
 	"Test::More"	    => "0.96",
     },
+    requires            => {
+        "Net::LDAP"         => "0",
+        "Try::Tiny"         => "0",
+    },
     meta_merge		=> {
 	resources   => {
 	    repository => "http://github.com/mauzo/BMORROW-LDAP",
